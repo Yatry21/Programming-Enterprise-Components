@@ -102,7 +102,7 @@ public class AccountDao {
 			// start a transaction
 			transaction = session.beginTransaction();
 			// save the student object
-			Query<UserAccount> query = session.createQuery("from Account where accountNumber = ?1");
+			Query<UserAccount> query = session.createQuery("from UserAccount where accountNumber = ?1");
 			query.setParameter(1, accountNumber);
 			List<UserAccount> result = query.getResultList();
 			// commit transaction

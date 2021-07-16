@@ -3,12 +3,10 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
   	<servlet-name>TransferController</servlet-name>
-  	<display-name>TransferController</display-name>
   	<servlet-class>com.bank.controller.TransferController</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>TransactionRestController</servlet-name>
-  	<display-name>TransactionRestController</display-name>
   	<servlet-class>com.bank.controller.TransactionRestController</servlet-class>
   </servlet>
   <servlet-mapping>
